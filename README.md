@@ -4,7 +4,7 @@
 - Mögliches Problem: Daten können nicht importiert werden, da zu grobe Fehler für ili2pg.
 - Permissions (postscript.sql)
 - Woher kommen die neuen Daten? Geopackage oder sollen sie in die Work-PG-Database importiert werden. Bei GPKG wohl sinnvoll, wenn die ili2db-Parameter übereinstimmen.
-- Umgang mit t_id? to_work mit t_id from_work ohne geht nicht, wegen Beziehungen. Ah doch, da gleiche DB.
+- Umgang mit t_id? to_work mit t_id from_work ohne geht nicht, wegen Beziehungen. Ah doch, da gleiche DB. Beim Rüberspielen einfach nextval().
 
 ## Dev-DB hochfahren
 ```
